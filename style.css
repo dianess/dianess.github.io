@@ -67,6 +67,8 @@ body {
   #contact-info {
     float: left;
     bottom: 20 px;
+    border-style: solid;
+    border-color: red;
   }
   
   #bio-image {
