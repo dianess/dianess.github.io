@@ -7,8 +7,8 @@ h1 {
 
 /* Styling for HTML elements */
 body {
-    padding: 10;
-    margin: 10;
+    padding: 20;
+    margin: 20;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 16px;
     line-height: 150%;
@@ -41,10 +41,12 @@ body {
   .container {
     width: 1024px;
     margin: 0 auto;
+    border-style: solid;
+    border-color: red;
   }
   
   /* Selecting elements by ID */
-  #contact-info,
+  
   #bio-image {
     float: left;
   }
@@ -65,7 +67,8 @@ body {
   }
   
   #contact-info {
-    width: 40%;
+    float: left;
+    bottom: 20 px;
   }
   
   #bio-image {
