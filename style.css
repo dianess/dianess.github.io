@@ -10,7 +10,7 @@ body {
     padding: 10;
     margin: 10;
     font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 150%;
     color: #333;
     background: #efeee7;
@@ -44,7 +44,6 @@ body {
   }
   
   /* Selecting elements by ID */
-  #main-bio,
   #contact-info,
   #bio-image {
     float: left;
@@ -57,12 +56,12 @@ body {
   #bio-name {
     position: absolute;
     color: rgb(66, 0, 128);
-    top: 10px;
+    top: 250px;
     left: 20px;
   }
   
   #main-bio {
-    width: 60%;
+    width: 50%;
   }
   
   #contact-info {
@@ -73,6 +72,10 @@ body {
     width: 200px;
     height: 200px;
     margin-right: 20px;
+  }
+
+  footer {
+    background: #333;
   }
 /* #big-font {
   font-size: 40px;
