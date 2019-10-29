@@ -41,8 +41,6 @@ body {
   .container {
     width: 1024px;
     margin: 0 auto;
-    border-style: solid;
-    border-color: red;
   }
   
   /* Selecting elements by ID */
@@ -77,9 +75,17 @@ body {
     margin-right: 20px;
   }
 
-  footer {
-    background: #333;
+  #table {
+      float: right
   }
+
+  #footer {
+    background: #333;
+    font-size: 28px;
+    color: #eee;
+    text-align: center;
+  }
+
 /* #big-font {
   font-size: 40px;
 }
