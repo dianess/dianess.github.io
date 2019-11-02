@@ -47,6 +47,9 @@ body {
   
   #bio-image {
     float: left;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
   }
   
   #figure {
@@ -65,32 +68,18 @@ body {
   }
   
   #contact-info {
-    list-style: none;
-    padding: 10 px;  
+    list-style-type: none;
+    margin-right: 20 px;  
     float: left;
-    bottom: 20 px;
+    padding: 20 px;
     background: #333;
     font-size: 16px;
     color: #eee;
     text-align: center;
   }
-  
-  #bio-image {
-    width: 200px;
-    height: 200px;
-    margin-right: 20px;
-  }
 
   #table {
-      float: right
-  }
-
-  #footer {
-
-    background: #333;
-    font-size: 28px;
-    color: #eee;
-    text-align: center;
+    top: 10 px;
   }
 
 /* #big-font {
