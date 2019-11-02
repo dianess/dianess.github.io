@@ -82,6 +82,9 @@ body {
     top: 10 px;
   }
 
+  ul li a {
+    color: #eee;
+  }
 /* #big-font {
   font-size: 40px;
 }
